@@ -1,0 +1,77 @@
+
+**Lists**
+----
+cart=[12.99,43,65.54,38]
+
+sum(cart)
+159.53
+
+cart.append(50)
+print(cart)
+[12.99, 43, 65.54, 38, 50]
+
+len(cart)
+5
+
+cart[3]
+38
+
+cart[3]*20
+760
+
+string = "Hello World"
+len(string)
+11
+
+string[4]
+o
+
+items=["Mouse","Laptop","screen","mic"]
+items
+['Mouse', 'Laptop', 'screen', 'mic']
+
+items.append("speaker")
+
+cart
+[12.99, 43, 65.54, 38, 50]
+items
+['Mouse', 'Laptop', 'screen', 'mic', 'speaker']
+
+products = [items , cart]
+
+print(products)
+[['Mouse', 'Laptop', 'screen', 'mic', 'speaker'], [12.99, 43, 65.54, 38, 50]]
+
+list=[1,2,3,4,5]
+
+**Dictionary**
+
+----
+
+data = {"name":"abcd","place":"efgh"}
+
+data["name"]
+'abcd'
+
+data = {"name":"abcd","place":"efgh","hobby":"read"}
+
+data.keys()
+dict_keys(['name', 'place', 'hobby'])
+
+list(data.keys())
+['name', 'place', 'hobby']
+
+
+list(data.keys())[0]
+'name'
+
+data["occ"]="Coder"
+
+data
+{'name': 'abcd', 'place': 'efgh', 'hobby': 'read', 'occ': 'Coder'}
+
+user_1 = {"name":"James bond"}
+user_2 = {"name":"Ned Stark"}
+users=[user_1,user_2]
+users
+[{'name': 'James bond'}, {'name': 'Ned Stark'}]
