@@ -1,0 +1,52 @@
+Adding
+```
+20 + 10
+```
+Multiply
+```
+9 * 46
+```
+Divide
+````
+28 / 7
+
+Exponent 
+````
+4 ** 2
+
+Modulo (Remainder)
+````
+24 % 5
+
+Greater Than
+````
+55 > 22
+
+Less Than
+````
+132 < 123
+
+String
+````
+print("Hello" + "World")
+
+HelloWorld
+
+print("Hello" +" " + "World")
+
+Hello World
+
+print("Hello"*9)
+
+HelloHelloHelloHelloHelloHelloHelloHelloHello
+
+Variables
+```````
+x = 5
+y = 7
+
+print(x)
+5
+
+print(x+y)
+12
