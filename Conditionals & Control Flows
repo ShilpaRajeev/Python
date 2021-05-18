@@ -1,0 +1,59 @@
+if True:
+    print("hi there")
+
+````````
+hi there
+if False:
+    print("nothing")
+...
+```````
+if not False:
+    print("Hello")
+
+Hello
+```````
+True == False
+False
+```````
+1>23
+False
+```````
+
+87<999
+True
+```````
+11>34 or 11<34
+True
+````````
+not 34>38
+True
+````````
+100 > 1100
+False
+````````
+100 > 100
+False
+````````
+100 >= 100
+True
+````````
+str("True").lower() == "true"
+True
+````````
+str("True").lower() == "True"
+False
+`````````
+abc = [1,2,3,4,5]
+abc_sq = []
+for num in abc:
+    new_num = num **2
+    abc_sq.append(new_num)
+
+abc_sq
+[1, 4, 9, 16, 25]
+```````````
+
+ i = 0
+while i < x:
+    print(i)
+    i = i+1

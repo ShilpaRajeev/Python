@@ -1,0 +1,60 @@
+my_list=[1,2,3,4,5]
+
+my_list[0]
+1
+my_list[1]
+2
+
+for loop
+````````
+
+for var in my_list:
+    print(var)
+1
+2
+3
+4
+5
+
+for i in 'abc':
+     print(i)
+
+a
+b
+c
+
+for x in range(0,10):
+    print(x)
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+-------------
+user_1 = {"username":'abc','id':1}
+user_2 = {"username":'efg','id':2}
+users = [user_1, user_2]
+for user in users:
+    print(user)
+
+{'username': 'abc', 'id': 1}
+{'username': 'efg', 'id': 2}
+for user in users:
+    print(user['username'])
+
+abc
+efg
+
+-----------------
+for x in range(0,10):
+    for user in users:
+        if user['id'] == x:
+           print(user)
+{'username': 'abc', 'id': 1}
+{'username': 'efg', 'id': 2}
